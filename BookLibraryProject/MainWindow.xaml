@@ -1,0 +1,22 @@
+﻿<Window x:Class="BookLibraryProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookLibraryProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="700">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="101,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="130" FontSize="18" Text="User Name:"/>
+        <TextBox x:Name="_IDBox" HorizontalAlignment="Left" Height="36" Margin="237,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontSize="16" MaxLines="1" MaxLength="10" />
+        <TextBlock HorizontalAlignment="Left" Margin="101,222,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Height="28" Width="130" FontSize="18"/>
+        <PasswordBox x:Name="_password" HorizontalAlignment="Left" Margin="237,222,0,0" VerticalAlignment="Top" Width="347" Height="28" MaxLength="10"/>
+        <Button x:Name="LogIn" Content="Log In" HorizontalAlignment="Left" Margin="285,308,0,0" VerticalAlignment="Top" Width="121" Click="LogIn_Click" Height="32"/>
+        <Button x:Name="Register" Content="Register" HorizontalAlignment="Left" Margin="71,308,0,0" VerticalAlignment="Top" Width="121" Height="32" Click="Register_Click"/>
+        <Button x:Name="GuestButton" Content="Guest" HorizontalAlignment="Left" Margin="489,308,0,0" VerticalAlignment="Top" Width="131" Height="32" Click="GuestButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,25,0,0" TextWrapping="Wrap" Text="Book Library" VerticalAlignment="Top" Height="76" Width="606" TextAlignment="Center" FontSize="48"/>
+
+    </Grid>
+</Window>
+    
+
